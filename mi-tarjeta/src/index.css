@@ -1,0 +1,89 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  background-color: #f0f2f5;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+}
+.tarjeta {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  padding: 2.5rem 2rem;
+  width: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nombre {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.profesion {
+  margin: 0.5rem 0 1rem;
+  font-size: 1.2rem;
+  color: #764ba2;
+  font-weight: 600;
+}
+
+.mensaje {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icono {
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icono:hover {
+  transform: scale(1.2);
+}
