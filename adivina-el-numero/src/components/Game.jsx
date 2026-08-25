@@ -25,12 +25,12 @@ function Game() {
     setIntentos(intentos + 1);
 
     if (numero === numeroSecreto) {
-      setMensaje(`🎉 ¡Correcto! Lo adivinaste en ${intentos + 1} intento(s).`);
+      setMensaje(`¡Correcto! Lo adivinaste en ${intentos + 1} intento(s).`);
       setAcertado(true);
     } else if (numero < numeroSecreto) {
-      setMensaje('📈 El número es mayor.');
+      setMensaje(' El número es mayor.');
     } else {
-      setMensaje('📉 El número es menor.');
+      setMensaje('El número es menor.');
     }
   };
 
